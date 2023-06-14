@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#03A9F4"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your names"
+        android:textSize="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:id="@+id/regname"
+        android:textColorHint="#2C5954"
+        android:inputType="text"
+        android:text="" />
+
+
+
+
+    <EditText
+        android:id="@+id/emaillog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="30sp"
+        android:text=""
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:hint="Enter your Email address"
+        android:textSize="20sp"
+        android:textColorHint="#3A605C"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/paslog"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+        android:textColorHint="#3C615E"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Enter your password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/conlog"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+        android:textColorHint="#3C615E"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Confirm your password"
+        android:inputType="textPassword" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnreg"
+        android:layout_margin="20sp"
+        android:text="Register"
+        android:backgroundTint="#305261"/>
+
+    <TextView
+        android:id="@+id/tVreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="30sp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:text="Welcome" />
+
+
+</LinearLayout>

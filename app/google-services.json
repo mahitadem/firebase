@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513638646637",
+    "project_id": "myfirebase-cd596",
+    "storage_bucket": "myfirebase-cd596.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513638646637:android:6e514c7fbcfd10bb051064",
+        "android_client_info": {
+          "package_name": "com.jiad.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513638646637-pafjtbf4if3ig58ov0896rn4qm9ehlr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGEqwX6whShrA8EcsL8nvzIHsAQOet3Ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513638646637-pafjtbf4if3ig58ov0896rn4qm9ehlr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
